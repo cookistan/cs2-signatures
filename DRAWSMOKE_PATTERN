@@ -1,0 +1,16 @@
+client.dll
+
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC ? 48 8B 9C 24 ? ? ? ? 4D 8B F8
+
+__int64 __fastcall hk_smoke(__int64 a1, __int64 a2, int a3, int a4, __int64 a5, __int64 a6)
+
+__int64 __fastcall removeSmoke(__int64 a1, __int64 a2, int a3, int a4, __int64 a5, __int64 a6)
+{
+  if ( (unsigned int)sub_17A3A0(a6 + 496, 3488455204LL, 0LL) == 1 )
+    return sub_C9A240(a1, a2, a5, a6);
+  if ( (unsigned int)sub_17A3A0(a6 + 496, 3634914089LL, 0LL) == 1 )
+    return sub_C8C930(a1, a2, a5, a6);
+  if ( dword_2077340 == *(_DWORD *)(a6 + 48) )
+    return sub_C97580(a1, a2, a5, a6);
+  return sub_C8B380(a1, a2, a3, a4, a5, a6);
+}
